@@ -37,8 +37,6 @@ begin
     
   // Se a matéria prima (primer) estiver em KG, deverá converter de grama para kilograma
   Result := Result / 1000;
-  
-  Resulta := 4321;
 end;
 
 procedure Main;
