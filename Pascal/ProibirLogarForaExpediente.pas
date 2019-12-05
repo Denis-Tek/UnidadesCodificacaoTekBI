@@ -1,7 +1,7 @@
 procedure Main;
 begin  
   if (not HorarioExpediente) then
-    raise Exception.Create(MensagemPersonalizada + 'Não é permitido acessar o sistema fora do expediente.'#13#13'VÁ DESCANSAR!');
+    raise Exception.Create(MensagemPersonalizada + 'Não é permitido acessar o sistema fora do expediente.'#13#13'VÁ DESCANSAR!'#13#13'Regra Gibhub');
 end;
 
 function HorarioExpediente: Boolean;
