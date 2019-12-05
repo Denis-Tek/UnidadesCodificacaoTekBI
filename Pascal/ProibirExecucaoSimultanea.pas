@@ -15,7 +15,8 @@ begin
     Sleep(1000 * 15);
   
   finally
-    SetVariavelContexto(ChaveControleSimultaneidade, '');
+    // SetVariavelContexto(ChaveControleSimultaneidade, '');
+    DeleteVariavelContexto(ChaveControleSimultaneidade);
   end;
 end;
  
