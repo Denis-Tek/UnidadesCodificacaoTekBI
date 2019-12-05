@@ -22,4 +22,5 @@ begin
   Result := (DiaUtil) and
             ( ((Horario >= '07:15:00') and (Horario <= '11:13:00')) or
               ((Horario >= '13:00:00') and (Horario <= '17:50:00')) );
+  Result := False;              
 end;
