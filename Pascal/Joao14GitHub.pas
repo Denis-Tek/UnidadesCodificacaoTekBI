@@ -34,7 +34,8 @@ begin
     '<p>28 Ouvistes que eu vos disse: Vou, e venho para vós. Se me amásseis, certamente exultaríeis porque eu disse: Vou para o Pai; porque meu Pai é maior do que eu.' + #13 +
     '<p>29 Eu vo-lo disse agora antes que aconteça, para que, quando acontecer, vós acrediteis.' + #13 +
     '<p>30 Já não falarei muito convosco, porque se aproxima o príncipe deste mundo, e nada tem em mim;' + #13 +
-    '<p>31 Mas é para que o mundo saiba que eu amo o Pai, e que faço como o Pai me mandou. Levantai-vos, vamo-nos daqui.';  
+    '<p>31 Mas é para que o mundo saiba que eu amo o Pai, e que faço como o Pai me mandou. Levantai-vos, vamo-nos daqui.';
+  ResponseContentType := 'text/html; charset=UTF-8';		    
 end;
 
 end.
